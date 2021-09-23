@@ -6,7 +6,7 @@ image:
   pullPolicy: Always
 
 env:
-  containerPort: "80"
+  containerPort: "8090"
 
 imagePullSecrets: []
 nameOverride: ""
