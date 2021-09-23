@@ -6,7 +6,7 @@ image:
   pullPolicy: Always
 
 env:
-  containerPort: "8090"
+  containerPort: "80"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -14,7 +14,7 @@ fullnameOverride: ""
 
 service:
   type: ClusterIP
-  port: 8090
+  port: 80
 
 ingress:
   enabled: true
